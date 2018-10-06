@@ -1,0 +1,21 @@
+{
+  "name": "insult-a-tron",
+  "version": "1.0.0",
+  "description": "Providing shockingly missing functionality in Alexa, this app generates insults.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "insult",
+    "humor"
+  ],
+  "author": "doug@wilcoxfamily.net",
+  "repository": "https://gitlab.com/legodoug/insult-a-tron",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "ask-sdk": "^2.0.0"
+  }
+}
