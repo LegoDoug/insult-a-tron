@@ -142,11 +142,11 @@ const quotedInsults = [
         source: 'As You Like It (Act 2, Scene 7)',
     },
     {
-        insult: 'Four of [your] five wits went halting off, and now is the whole [of you] governed with one: so that if [you] have wit enough to keep [thyself] warm, let [you] bear it for a difference between [yourself] and [your] horse; for it is all the wealth that [you] hath left, to be known a reasonable creature.',
+        insult: 'Four of -your- five wits went halting off, and now is the whole -of you- governed with one: so that if -you- have wit enough to keep -thyself- warm, let -you- bear it for a difference between -yourself- and -your- horse; for it is all the wealth that -you- hath left, to be known a reasonable creature.',
         source: 'Much Ado About Nothing (Act 1, Scene 1)',
     },
     {
-        insult: '[You] have a plentiful lack of wit.',
+        insult: '-You- have a plentiful lack of wit.',
         source: 'Hamlet (Act 2, Scene 2)',
     },
     {
@@ -158,7 +158,7 @@ const quotedInsults = [
         source: 'Two Gentlemen of Verona (Act 2, Scene 4)',
     },
     {
-        insult: '[Thou hast] not so much brain as ear-wax.',
+        insult: '-Thou hast- not so much brain as ear-wax.',
         source: 'Troilus and Cressida (Act 5, Scene 1)',
     },
     {
@@ -182,19 +182,19 @@ const quotedInsults = [
         source: 'As You Like It (Act 3, Scene 2)',
     },
     {
-        insult: 'Drunkenness is [your] best virtue, for [you] will be swine drunk, and in [your] sleep [you] does little harm, save to [your] bedclothes about [you].',
+        insult: 'Drunkenness is -your- best virtue, for -you- will be swine drunk, and in -your- sleep -you- does little harm, save to -your- bedclothes about -you-.',
         source: 'All’s Well That Ends Well (Act 4, Scene 3)',
     },
     {
-        insult: '[Thou] threadbare juggler!',
+        insult: '-Thou- threadbare juggler!',
         source: 'The Comedy of Errors (Act 5, Scene 1)',
     },
     {
-        insult: '[Thou] eater of broken meats!',
+        insult: '-Thou- eater of broken meats!',
         source: 'King Lear (Act 2, Scene 2)',
     },
     {
-        insult: 'Thou subtle, perjur’d, false, disloyal [person]!',
+        insult: 'Thou subtle, perjur’d, false, disloyal -person-!',
         source: 'The Two Gentlemen of Verona (Act 4, Scene 2)',
     },
     {
@@ -210,7 +210,7 @@ const quotedInsults = [
         source: 'Henry IV, Part 1 (Act 2, Scene 3)',
     },
     {
-        insult: '[Thou hast] more hair than wit, and more faults than hairs.',
+        insult: '-Thou hast- more hair than wit, and more faults than hairs.',
         source: 'Two Gentlemen of Verona (Act 3, Scene 1)',
     },
     {
@@ -222,7 +222,7 @@ const quotedInsults = [
         source: 'King Lear (Act 2, Scene 4)',
     },
     {
-        insult: 'The tartness of [your] face sours ripe grapes.',
+        insult: 'The tartness of -your- face sours ripe grapes.',
         source: 'The Comedy of Errors (Act 5, Scene 4)',
     },
     {
@@ -242,11 +242,11 @@ const quotedInsults = [
         source: 'Troilus and Cressida',
     },
     {
-        insult: '[Thou hast] No more brain than a stone.',
+        insult: '-Thou hast- No more brain than a stone.',
         source: 'Twelfth Night',
     },
     {
-        insult: '[Thou art] a foul and pestilent congregation of vapours.',
+        insult: '-Thou art- a foul and pestilent congregation of vapours.',
         source: 'Hamlet',
     },
 ];
