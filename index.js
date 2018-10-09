@@ -3,6 +3,11 @@
 
 const Alexa = require('ask-sdk');
 
+const SKILL_NAME = 'The Shakespearean Insult-a-Tron';
+const HELP_MESSAGE = 'You can ask me to insult you, by saying "Infinite Insult." You can direct an insult to someone else by saying, "Ask Infinite Insult to insult ..." and that person\'s name.';
+const HELP_REPROMPT = 'How now, Roderigo?';
+const STOP_MESSAGE = 'So farewell to the little good you bear me.';
+
 const quotedInsults = [
     {
         insult: 'You are a most notable coward, an infinite and endless liar, an hourly promise breaker, the owner of no one good quality.',
@@ -284,7 +289,7 @@ const InsultOtherPersonHandler = {
     },
     handle(handlerInput) {
         const insulteeName = handlerInput.requestEnvelope.request.intent.slots.insulteeName.value;
-        const insultArr = data;
+        const insultArr = quotedInsults;
         const insultIndex = Math.floor(Math.random() * insultArr.length);
         const randomInsult = insultArr[insultIndex];
         const speechOutput = insulteeName + ', ' + randomInsult.insult;
@@ -349,11 +354,6 @@ const ErrorHandler = {
             .getResponse();
     },
 };
-
-const SKILL_NAME = 'The Shakespearean Insult-a-Tron';
-const HELP_MESSAGE = 'You can ask me to insult you, by saying "Infinite Insult." You can direct an insult to someone else by saying, "Ask Infinite Insult to insult ..." and that person\'s name.';
-const HELP_REPROMPT = 'How now, Roderigo?';
-const STOP_MESSAGE = 'So farewell to the little good you bear me.';
 
 const skillBuilder = Alexa.SkillBuilders.standard();
 
