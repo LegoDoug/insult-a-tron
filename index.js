@@ -351,7 +351,7 @@ const ErrorHandler = {
 };
 
 const SKILL_NAME = 'The Shakespearean Insult-a-Tron';
-const HELP_MESSAGE = 'You can ask me to insult you, by saying "Infinite Insult." You can direct an insult to someone else by saying, "Ask Infinite Insult to insult ..." and that person\'s name.'';
+const HELP_MESSAGE = 'You can ask me to insult you, by saying "Infinite Insult." You can direct an insult to someone else by saying, "Ask Infinite Insult to insult ..." and that person\'s name.';
 const HELP_REPROMPT = 'How now, Roderigo?';
 const STOP_MESSAGE = 'So farewell to the little good you bear me.';
 
