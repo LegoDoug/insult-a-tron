@@ -16,6 +16,6 @@
   "repository": "https://gitlab.com/legodoug/insult-a-tron",
   "license": "Apache-2.0",
   "dependencies": {
-    "ask-sdk": "^2.0.0"
+    "ask-sdk": "^2.12.1"
   }
 }
